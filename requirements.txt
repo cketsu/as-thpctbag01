@@ -1,0 +1,11 @@
+pandas
+azure-functions
+requests
+azure.storage
+azure
+pyodbc
+numpy
+pylint
+dfply
+Flask
+
