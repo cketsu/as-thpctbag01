@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python version
       uses: actions/setup-python@v1
       with:
-        python-version: '3.7'
+        python-version: '3.8'
 
     - name: Build using AppService-Build
       uses: azure/appservice-build@v1
@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'as-thpctbag01'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_dd3657a0f90a41d3a77178e745716a39 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1d228efc24dd4d01a887fa787c419a55 }}
